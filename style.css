@@ -1,4 +1,3 @@
-/* Reset some default styles */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ body {
   color: #333;
 }
 
-/* Navbar styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -21,11 +20,26 @@ body {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fc8019;
+
+.swiggy-header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background-color: #fff;
 }
+
+.swiggy-logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.swiggy-title {
+  font-size: 36px;
+  color: #fc8019;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 
 .nav-links a {
   margin: 0 15px;
@@ -52,7 +66,7 @@ body {
   background-color: #fc8019;
   color: #fff;
 }
-/* Hero Section Styles */
+
 .hero-content h1 {
   font-size: 48px;
   color: white;
@@ -110,7 +124,7 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-/* Categories Section */
+
 .categories {
   padding: 60px 40px;
   background-color: #f9f9f9;
@@ -156,7 +170,7 @@ body {
   font-weight: 500;
   color: #333;
 }
-/* Featured Restaurants Section */
+
 .restaurants {
   padding: 60px 40px;
   background-color: #fff;
@@ -209,7 +223,7 @@ body {
   font-size: 14px;
   color: #555;
 }
-/* Offers Section */
+
 .offers {
   padding: 60px 40px;
   background-color: #fff;
@@ -239,7 +253,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   flex-shrink: 0;
 }
-/* Services Section */
+
 .services {
   display: flex;
   justify-content: space-around;
@@ -275,7 +289,7 @@ body {
   font-size: 16px;
   color: #555;
 }
-/* Instamart Section */
+
 .instamart {
   padding: 60px 40px;
   background-color: #f9f9f9;
@@ -307,7 +321,7 @@ body {
 .grocery-card:hover {
   transform: scale(1.05);
 }
-/* App Download Section */
+
 .app-download {
   padding: 60px 40px;
   background-color: #fff;
@@ -335,7 +349,7 @@ body {
 .download-buttons img:hover {
   transform: scale(1.1);
 }
-/* Footer Section */
+
 .footer {
   background-color: #222;
   color: #ccc;
@@ -619,6 +633,8 @@ body {
   margin-bottom: 10px;
   color: #555;
 }
+
+
 
 
 
